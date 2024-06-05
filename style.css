@@ -47,6 +47,7 @@ a{
     padding-right: 100px;
     padding-bottom: 100px;
     padding-left : 100px;
+    
 }
 .headb{
     display: flex;
@@ -61,4 +62,99 @@ a{
     border-color:#3882F6  ;
     font-weight: bold;
 
+}
+.mainb{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+.mainb p{
+    width: 200px;
+    
+}
+.mainb img{
+    border-radius: 13px;
+}
+.main1 h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.main2{
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.main2b{
+    max-width: 800px;
+    margin: 0px;
+
+}
+.pp p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1F2937
+
+}
+.hh{
+    display: flex;
+    justify-content:right;
+    
+    
+}
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+.call{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    padding: 20px 100px;
+    border-radius: 13px;
+}
+.call1 h4 {
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.call1 p{
+    margin-top: 0px;
+    color: #E5E7EB;
+}
+.call2 button{
+    color:white;
+    background-color: #3882F6;
+    border:1px solid white;
+    border-radius: 8px;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
